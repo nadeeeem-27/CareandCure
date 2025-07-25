@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Heart, Phone, Mail } from 'lucide-react';
-import CareAndCure from './../../public/CareAndCure_Logo.jpg'
+import CareAndCure from '../assets/CareAndCure_Logo.jpg'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

@@ -1,6 +1,9 @@
 import React from 'react';
 import { ArrowRight, Users, Heart, Shield, Hand as Hands, Star, CheckCircle, Globe, Award } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import leader from '../assets/Leader.jpg'
+import gathering from '../assets/Gathering.jpg'
+
 
 const Home = () => {
   return (
@@ -56,7 +59,7 @@ const Home = () => {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-500 rounded-3xl transform rotate-6 opacity-20"></div>
                 <img 
-                  src="/Gathering.jpg?auto=compress&cs=tinysrgb&w=800"
+                  src={gathering}
                   alt="Community gathering"
                   className="relative w-full h-96 lg:h-[500px] object-cover rounded-3xl shadow-2xl"
                 />
@@ -237,7 +240,7 @@ const Home = () => {
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 rounded-3xl transform rotate-3 opacity-20"></div>
                 <div className="absolute inset-0 bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 rounded-3xl transform -rotate-3 opacity-20"></div>
                 <img 
-                  src="/Leader.jpg"
+                  src={leader}
                   alt="Organization Leader"
                   className="relative w-full h-[550px] object-cover object-top rounded-3xl shadow-2xl"
                 />
